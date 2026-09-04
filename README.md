@@ -21,4 +21,11 @@
 * 🔓 Decrypt previously encrypted text
 * 🔑 Automatically generate and store an encryption key
 * 🎨 Display a clean and interactive terminal interface
+*   
+* 
 ![image alt](https://github.com/ABBAS-Hayder/Sec_project/blob/bbb71ec813a5a9a15d2b30d3086a9458e2436454/Screenshot%20from%202026-09-04%2017-35-52.png)
+
+The project uses the Fernet symmetric encryption implementation provided by the cryptography library.
+
+⚠️ Note: This project is for educational purposes and is not intended for production use.
+
