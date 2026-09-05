@@ -28,11 +28,6 @@ The project uses the **Fernet symmetric encryption** implementation provided by 
 > ⚠️ **Note:** This project is primarily intended for learning and experimentation with Python and symmetric cryptography. It should not be considered a production-grade password manager or secure storage solution.
 
 ---
-⤵️ The Interface 
-
-![image alt](https://github.com/ABBAS-Hayder/Sec_project/blob/7fb75a0eb9a0953b0ae26b66589db36f1abbbe07/Screenshot%20from%202026-09-04%2017-35-52.png)
-
----
 
 ## 🛠️ Technologies
 
@@ -74,7 +69,7 @@ After starting the program, you will see a menu similar to:
 
 ![image alt](https://github.com/ABBAS-Hayder/Sec_project/blob/7fb75a0eb9a0953b0ae26b66589db36f1abbbe07/Screenshot%20from%202026-09-04%2017-35-52.png)
 
-
+---
 ### 🔒 Encrypt Text
 
 Choose:
