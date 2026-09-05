@@ -17,7 +17,7 @@ def line():
 
 ##################################################################          (Key_file & generate KEY)
 
-KEY_FILE = "Secure.key"
+KEY_FILE = "Critical_File.key"
 
 
 def generate_key():
