@@ -25,7 +25,7 @@
 
 The project uses the **Fernet symmetric encryption** implementation provided by the `cryptography` library.
 
-> ⚠️ **Note:** This project is primarily intended for learning and experimentation with Python and symmetric cryptography. It should not be considered a production-grade password manager or secure storage solution.
+> ⚠️ **Note:** This project is primarily intended for learning and experimentation with Python and symmetric cryptography.
 
 ---
 
