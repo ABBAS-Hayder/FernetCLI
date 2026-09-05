@@ -46,7 +46,7 @@ cipher = Fernet(key)
 #################################################################           (Bunner & Arts)
 line()
 
-print(figlet_format("Sec_project", font="doom"))
+print(figlet_format("FernetCLI", font="doom"))
 
 
 def main():
