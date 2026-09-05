@@ -45,8 +45,8 @@ The project uses the **Fernet symmetric encryption** implementation provided by 
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/ِABBAS-Hayder/Sec_Project.git
-cd Sec_Project
+git clone https://github.com/ِABBAS-Hayder/FernetCLI.git
+cd FernetCLI
 ```
 
 ### 2. Install Libraries
@@ -67,7 +67,7 @@ python FernetCIL.py
 
 After starting the program, you will see a menu similar to:
 
-![image alt](https://github.com/ABBAS-Hayder/Sec_project/blob/7fb75a0eb9a0953b0ae26b66589db36f1abbbe07/Screenshot%20from%202026-09-04%2017-35-52.png)
+![image alt]
 
 ---
 ### 🔒 Encrypt Text
