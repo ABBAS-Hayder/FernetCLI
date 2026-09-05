@@ -45,7 +45,7 @@ The project uses the **Fernet symmetric encryption** implementation provided by 
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/ِABBAS-Hayder/FernetCLI.git
+git clone https://github.com/ABBAS-Hayder/FernetCLI.git
 cd FernetCLI
 ```
 
