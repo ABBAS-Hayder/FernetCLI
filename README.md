@@ -58,7 +58,7 @@ pip install -r requirements.txt
 ### 3. Run the program
 
 ```bash
-python FernetCIL.py
+python3 FernetCIL.py
 ```
 
 ---
