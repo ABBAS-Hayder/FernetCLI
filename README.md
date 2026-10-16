@@ -67,7 +67,7 @@ python3 FernetCIL.py
 
 After starting the program, you will see a menu similar to:
 
-![image alt]
+![image alt](https://github.com/ABBAS-Hayder/FernetCLI/blob/cfcf1b5c9f6714521e2b04cc628502b6e2a66b98/Screenshot%202026-10-16%20235651.png)
 
 ---
 ### 🔒 Encrypt Text
