@@ -1,7 +1,8 @@
 ###################################################################         (Libary & outhers)
-from cryptography.fernet import Fernet
+from cryptography.fernet import Fernet, InvalidToken
 import os
 from pyfiglet import figlet_format
+from pygments.styles.dracula import yellow
 from rich import print
 from rich.console import Console
 from rich.theme import Theme
@@ -43,7 +44,7 @@ key = load_key()
 
 cipher = Fernet(key)
 
-#################################################################           (Bunner & Arts)
+#################################################################           (Interface & Arts)
 line()
 
 print(figlet_format("FernetCLI", font="doom"))
@@ -69,26 +70,48 @@ def main():
             encrypted = cipher.encrypt(text.encode())
 
             console.print(f"\nYour Cipher : ---> [bold yellow]{encrypted.decode()}[bold yellow]")
-
         elif choice == "2":
-            encrypted = input("\n Enter The Cipher 🔐 : ")
+
+            print()
+
+            print("Put Here The Cipher Text ")
+
+            console.print(f"[yellow]Click Enter Two Time[yellow]")
+
+            parts = []
+
+            while True:
+                part = input()
+
+                if not part.strip():
+                    break
+
+                parts.append(part)
+
+            encrypted = "".join("".join(parts).split())
+
+            if not encrypted:
+                console.print("You are not set the cipher ", style="bold red")
+                continue
 
             try:
-                decrypted = cipher.decrypt(encrypted.encode())
+                decrypted = cipher.decrypt(encrypted.encode("utf-8"))
 
-                console.print(f"\n Your Clean Text: ---> [green]{decrypted.decode()}[green]")
+                console.print("\nYour Clean Text Is :")
+                print()
+                console.print(decrypted.decode("utf-8"), markup=False)
 
-            except Exception as e:
-                print("\n[red]Failed![red]")
-                print(e)
+            except InvalidToken:
+                console.print(
+                    style="bold red",
+                )
 
         elif choice == "3":
             print("\n[cyan]Bye!,[cyan]", "TryHarder 👾\n")
             break
 
         else:
-            print("\n[red]Invalied Option![red]")
-
+          console.print("\n Please Choose Any One  ( 1 / 2 / 3 ) ", style="bold red")
 
 ##################################################################
 
