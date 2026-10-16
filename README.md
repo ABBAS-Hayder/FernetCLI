@@ -350,7 +350,7 @@ This is only one step in my learning journey, and I hope to build more advanced 
 
 ## The End
 
-**Mr. ABBAS**
+** ABBAS **
 **September 5, 2026**
 
 ---
