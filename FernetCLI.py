@@ -52,7 +52,7 @@ print(figlet_format("FernetCLI", font="doom"))
 
 def main():
     while True:
-        console.print("[purple]=[purple]" * 45)
+        console.print("[purple]=[bold purple]" * 45)
         console.print("\n 1. Encrypt Text 📥", style="italic")
         console.print("\n 2. Decrypt Text 📤 ", style="italic")
         console.print("\n 3. Exit 👋 ", style="bold")
