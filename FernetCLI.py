@@ -67,7 +67,7 @@ def main():
 
             text = input("\n Enter Your Text 📩 : ")
 
-            encrypted = cipher.encrypt(text.encode())
+            encrypted = cipher.encrypt(text.encode("utf-8"))
 
             console.print(f"\nYour Cipher : ---> [bold yellow]{encrypted.decode()}[bold yellow]")
         elif choice == "2":
@@ -97,9 +97,10 @@ def main():
             try:
                 decrypted = cipher.decrypt(encrypted.encode("utf-8"))
 
-                console.print("\nYour Clean Text Is :")
+                console.print("[green]\nYour Clean Text Is : [green]")
                 print()
-                console.print(decrypted.decode("utf-8"), markup=False)
+                console.print(decrypted.decode("utf-8"), markup=False , style="bold yellow")
+                print()
 
             except InvalidToken:
                 console.print(
