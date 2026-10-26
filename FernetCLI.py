@@ -98,7 +98,7 @@ def main():
                 decrypted = cipher.decrypt(encrypted.encode("utf-8"))
 
                 console.print(f"[green]\nYour Clean Text Is : [green]")
-                print()
+                
                 console.print( decrypted.decode("utf-8"), markup=False , style="bold yellow")
                 print()
 
