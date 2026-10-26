@@ -97,14 +97,14 @@ def main():
             try:
                 decrypted = cipher.decrypt(encrypted.encode("utf-8"))
 
-                console.print("[green]\nYour Clean Text Is : [green]")
+                console.print(f"[green]\nYour Clean Text Is : [green]")
                 print()
-                console.print(decrypted.decode("utf-8"), markup=False , style="bold yellow")
+                console.print( decrypted.decode("utf-8"), markup=False , style="bold yellow")
                 print()
 
             except InvalidToken:
-                console.print(
-                    style="bold red",
+                console.print( "Invalid token, wrong key, or corrupted data.",
+                              style="bold red",
                 )
 
         elif choice == "3":
